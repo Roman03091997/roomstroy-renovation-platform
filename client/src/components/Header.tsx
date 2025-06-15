@@ -16,7 +16,7 @@ export default function Header() {
     <header className="fixed w-full top-0 bg-bg z-50 shadow-sm">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <a href="#" className="brand-logo group cursor-pointer" style={{ fontFamily: 'Times New Roman, serif', fontSize: '1.75rem', fontWeight: 400, letterSpacing: '0.05em' }}>
+          <a href="/" className="brand-logo group cursor-pointer" style={{ fontFamily: 'Times New Roman, serif', fontSize: '1.75rem', fontWeight: 400, letterSpacing: '0.05em' }}>
             <span className="brand-room" style={{ color: '#2c1810', transform: 'scaleX(0.85)', display: 'inline-block' }}>ROOM</span>
             <span className="brand-slash" style={{ color: '#8B4513', margin: '0 2px', transform: 'skewX(-12deg)', display: 'inline-block' }}>/</span>
             <span className="brand-stroy" style={{ color: '#8B4513', transform: 'scaleX(0.85)', display: 'inline-block' }}>STROY</span>
